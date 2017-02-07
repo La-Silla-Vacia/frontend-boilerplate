@@ -1,0 +1,9 @@
+@import '../../node_modules/normalize-scss/sass/normalize';
+@import 'variables';
+
+@include normalize;
+
+body {
+  background-color: $brand-color;
+  margin: 10px;
+}
